@@ -1,7 +1,9 @@
+import badge
 import os
+
 class App(badge.BaseApp):
     def on_open():
-        0
+        showEmojis()
     def loop():
         0
 
